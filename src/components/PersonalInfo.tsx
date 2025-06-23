@@ -39,7 +39,7 @@ export const PersonalInfo = () => {
         <h3 className="text-xl font-bold text-pink-600 dark:text-pink-400 mb-3 ">Minha História</h3>
         <p className="text-white-700 mb-4 d">
           Natural do Pará, comecei a trabalhar aos 17 anos como menor aprendiz em uma indústria têxtil, 
-          na área de RH. Mesmo com todas as dificuldades de morar sozinha aos 18 anos, nunca desisti dos 
+          na área de RH. Aos 18 anos fui morar sozinha, mesmo com todas as dificuldades, nunca desisti dos 
           meus sonhos.
         </p>
         <p className="text-white-700 mb-4">
@@ -47,7 +47,7 @@ export const PersonalInfo = () => {
           a renda. Com muita determinação, fui efetivada na área de mecânica após o programa de aprendizagem.
         </p>
         <p className="text-white-700">
-          Em 2022 descobri minha paixão pela tecnologia como forma de ajudar pessoas e realizar meu sonho 
+          Em 2023 descobri minha paixão pela tecnologia como forma de ajudar pessoas e realizar meu sonho 
           de criança de "mudar o mundo". Em 2023 comecei minha faculdade e me mudei para Goiânia, onde 
           trabalhei nas Lojas Renner e conheci pessoas incríveis com sonhos similares aos meus.
         </p>
