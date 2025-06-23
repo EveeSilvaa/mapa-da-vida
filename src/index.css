@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply transition-colors duration-300;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Suaviza as transições */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Estilos personalizados para os cards */
+.card {
+  @apply rounded-xl p-6 shadow-lg;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Define variáveis CSS para os temas */
+:root {
+  --bg-primary: #F5F5F5;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #333333;
+  --accent: #8B5CF6;
+  --text-secundary: linear-gradient(to right, #f58396, #8B5CF6);
+}
+
+.dark {
+  --bg-primary: #1E1E2E;
+  --bg-secondary: #2D2D3A;
+  --text-primary: #E2E8F0;
+  --accent: #A78BFA;
+  --text-secundary: gradiante(to right, #faef8b, #8B5CF6);
+}
