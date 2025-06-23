@@ -6,7 +6,7 @@ export const RoleInCompany = () => {
     <div className="py-12 px-4 max-w-4xl mx-auto">
       <AnimatedText 
         text="Meu Papel em uma Empresa Conectiva" 
-        className="text-3xl font-bold text-pink-600 dark:text-pink-400 mb-8 text-center"
+        className="text-3xl font-bold text-purple-500 dark:text-purple-400 mb-8 text-center"
       />
       
       <motion.div
